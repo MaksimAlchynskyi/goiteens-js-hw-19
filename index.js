@@ -41,16 +41,16 @@ console.log(ingredientsList);
 const galleryList = document.querySelector(".gallery");
 const images = [
     {
-        url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        alt: 'White and Black Long Fur Cat',
+        url: 'https://live.staticflickr.com/2738/4072847207_3e93563147_b.jpg',
+        alt: 'kats art',
     },
     {
-        url: 'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        alt: 'Orange and White Koi Fish Near Yellow Koi Fish',
+        url: 'https://images.squarespace-cdn.com/content/v1/5a73c9b5edaed8c4b0d2b502/1521792708281-1IEPBVCCUPH17K8DWZMN/curious+kitten.jpg?format=1500w',
+        alt: 'kats',
     },
     {
-        url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        alt: 'Group of Horses Running',
+        url: 'https://katscoons.com/wp-content/uploads/2022/06/cropped-cropped-279105101_1022840831687919_1304819540376604300_n.jpg',
+        alt: 'kats',
     },
 ];
 const makeMarkup = (images) => {
