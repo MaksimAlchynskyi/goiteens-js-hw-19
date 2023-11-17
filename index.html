@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="animal">Тварини</h2>
+    <ul class="animal-list">
+        <li>Кіт</li>
+        <li>Хом'як</li>
+        <li>Кінь</li>
+        <li>Папуга</li>
+    </ul>
+    <h2 class="food">Їжа</h2>
+    <ul class="food-list">
+        <li>Хліб</li>
+        <li>Петрушка</li>
+        <li>Сир</li>
+    </ul>
+    <h2 class="technology">Технології</h2>
+    <ul class="technology-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node</li>
+    </ul>
+
+    <ul class="ingredients"></ul>
+
+    <ul class="gallery"></ul>
+
+    <div id="counter">
+        <button type="button" data-action="decrement">-1</button>
+        <span id="value">0</span>
+        <button type="button" data-action="increment">+1</button>
+    </div>
+<style>
+    .gallery {
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+}
+</style>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
